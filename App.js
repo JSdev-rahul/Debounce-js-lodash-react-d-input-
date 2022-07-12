@@ -50,11 +50,11 @@ function App() {
   return (
     <div className="App">
       <input type="text" onChange={optimizeVersion}></input>
-      <DebounceInput
+      {/* <DebounceInput
         min={2}
         debounceTimeout={5000}
         onChange={handleChange}
-      ></DebounceInput>
+      ></DebounceInput> */}
 
       {serch.map((item) => {
         return (
